@@ -19,7 +19,7 @@ Check out [Day2Night.ipynb](https://github.com/wz-ml/Day2Night-with-Pix2Pix/blob
 - Run `!python pix2pix.py \ --mode train \`
 - OPTIONAL: Change input/output folders and training Epochs.
 ## Visualization
-```
+```python
 # test the model
 !python pix2pix.py \
   --mode test \
@@ -27,8 +27,9 @@ Check out [Day2Night.ipynb](https://github.com/wz-ml/Day2Night-with-Pix2Pix/blob
   --input_dir daynight/val \
   --checkpoint daynight_train
   ```
-```
+```python
 # show images in notebook
+
 import matplotlib.pyplot as plt
 import numpy as np
 choice = random.randint(0,150)
