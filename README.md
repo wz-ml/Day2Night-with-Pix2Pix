@@ -28,6 +28,7 @@ Check out [Day2Night.ipynb](https://github.com/wz-ml/Day2Night-with-Pix2Pix/blob
   --checkpoint daynight_train
   ```
 ```
+# show images in notebook
 import matplotlib.pyplot as plt
 import numpy as np
 choice = random.randint(0,150)
