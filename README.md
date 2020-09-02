@@ -7,11 +7,11 @@ Check out [Day2Night.ipynb](https://github.com/wz-ml/Day2Night-with-Pix2Pix/blob
 ## Dataset Source
 [Evaluating Local Features for Day-Night Matching](http://users.umiacs.umd.edu/~hzhou/dnim.html) - University of Maryland, College Park, USA.
 ## Installation
-#### Through cloning
-- `Git clone` this repository (through Github desktop or through the link).
+#### Through cloning:
+- `Git clone` this repository (through Github Desktop or through the [link](https://github.com/wz-ml/Day2Night-with-Pix2Pix.git)).
 - Open Day2Night.ipynb
 - Run codeblocks sequentially until `!python pix2pix.py \`.
-#### Alternatively
+#### Alternatively:
 - Go to this [Colab link] (https://colab.research.google.com/github/wz-ml/Day2Night-with-Pix2Pix/blob/master/Day2Night.ipynb)
 - Click <b>Copy To Drive</b>
 - Run codeblocks sequentially until `!python pix2pix.py \`.
