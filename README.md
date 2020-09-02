@@ -6,7 +6,9 @@ Check out [Day2Night.ipynb](https://github.com/wz-ml/Day2Night-with-Pix2Pix/blob
 
 ## Dataset Source
 [Evaluating Local Features for Day-Night Matching](http://users.umiacs.umd.edu/~hzhou/dnim.html) - University of Maryland, College Park, USA.
-## Installation
+
+
+## Dataset Installation
 #### Through cloning:
 - `Git clone` this repository (through Github Desktop or through the [link](https://github.com/wz-ml/Day2Night-with-Pix2Pix.git)).
 - Open Day2Night.ipynb
@@ -15,9 +17,19 @@ Check out [Day2Night.ipynb](https://github.com/wz-ml/Day2Night-with-Pix2Pix/blob
 - Go to this [Colab link] (https://colab.research.google.com/github/wz-ml/Day2Night-with-Pix2Pix/blob/master/Day2Night.ipynb)
 - Click <b>Copy To Drive</b>
 - Run codeblocks sequentially until `!python pix2pix.py \`.
+
+
+## Using a pre-trained model
+Follow the instructions on the notebook.
+
+---
+
 ## Training
-- Run `!python pix2pix.py \ --mode train \`
+- Scroll down & run `!python pix2pix.py \ --mode train \`
 - OPTIONAL: Change input/output folders and training Epochs.
+
+---
+
 ## Visualization
 ```python
 # test the model
@@ -45,6 +57,17 @@ axarr[2].imshow(Image.open(path + ('image%d'%choice) + '-targets.png'))
 axarr[2].set_title("Original",size=15,color='white',weight='bold')
 plt.show()
 ```
+
+
+## Results
+<div class = ".bg-gray-dark">
+<img alt="Qries" src="https://github.com/wz-ml/Day2Night-with-Pix2Pix/blob/master/download.png?raw=true">
+<img alt="Qries" src="https://github.com/wz-ml/Day2Night-with-Pix2Pix/blob/master/download%20(1).png?raw=true">
+<img alt="Qries" src="https://github.com/wz-ml/Day2Night-with-Pix2Pix/blob/master/download%20(2).png?raw=true">
+<img alt="Qries" src="https://github.com/wz-ml/Day2Night-with-Pix2Pix/blob/master/download%20(3).png?raw=true">
+</div>
+                               
+                               
 ## License
 [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
