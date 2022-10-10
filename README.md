@@ -14,7 +14,7 @@ Check out [Day2Night.ipynb](https://github.com/wz-ml/Day2Night-with-Pix2Pix/blob
 - Open Day2Night.ipynb
 - Run codeblocks sequentially until `!python pix2pix.py \`.
 #### Alternatively:
-- Go to this [Colab link] (https://colab.research.google.com/github/wz-ml/Day2Night-with-Pix2Pix/blob/master/Day2Night.ipynb)
+- Go to this [Colab link](https://colab.research.google.com/github/wz-ml/Day2Night-with-Pix2Pix/blob/master/Day2Night.ipynb)
 - Click <b>Copy To Drive</b>
 - Run codeblocks sequentially until `!python pix2pix.py \`.
 
