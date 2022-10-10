@@ -1,7 +1,7 @@
-# Day2Night-with-Pix2Pix
+# Night2day-with-Pix2Pix
 ![](https://github.com/wz-ml/Day2Night-with-Pix2Pix/blob/master/visualization.png?raw=true)
 
-A day-to-night image translation implementation using Pix2Pix. The model was trained on the University of Maryland's DNIM dataset for 100 epochs, and actually achieved a pretty good result (at least visually). Credit goes to [affinelayer](https://github.com/affinelayer/pix2pix-tensorflow) for the tensorflow pix2pix package.
+A night-to-day image translation implementation using Pix2Pix. The model was trained on the University of Maryland's DNIM dataset for 100 epochs, and actually achieved a pretty good result (at least visually). Credit goes to [affinelayer](https://github.com/affinelayer/pix2pix-tensorflow) for the tensorflow pix2pix package.
 Check out [Day2Night.ipynb](https://github.com/wz-ml/Day2Night-with-Pix2Pix/blob/master/Day2Night.ipynb) for the code!
 
 ## Dataset Source
